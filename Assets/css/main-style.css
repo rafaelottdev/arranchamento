@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: var(--main-background-color);
+}
+
+header {
+
+}
+.header-container {
+    
+}
+
+.header-container__wrapper {
+    margin-top: -100px;
+}
+
+.header-container__wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-container__header-text-container {
+    padding: 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--title-font-family);
+    letter-spacing: .3px;
+    color: white;
+
+    /* background-color: red; */
+}
+
+.title-container__title {
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: lighter;
+    
+}
+
+.subtitle-container__subtitle {
+    font-size: .8em;
+    font-weight: lighter;
+}
