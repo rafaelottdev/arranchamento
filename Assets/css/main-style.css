@@ -4,6 +4,8 @@ body {
     background-color: var(--main-background-color);
 }
 
+/* HEADER */
+
 header {
 
 }
@@ -44,4 +46,77 @@ header {
 .subtitle-container__subtitle {
     font-size: .8em;
     font-weight: lighter;
+}
+
+/* MAIN */
+
+.form {
+}
+.form__section {
+}
+.form__graduation-section {
+}
+.graduation-title-container {
+}
+.graduation-title-container__title {
+}
+.graduation-radio-container {
+}
+.graduation-container__graduation-item {
+}
+.graduation-container__ten {
+}
+.graduation-container__s-ten {
+}
+.graduation-container__sgt {
+}
+.graduation-container__al {
+}
+.graduation-container__cb {
+}
+.graduation-container__ep {
+}
+.graduation-container__ev {
+}
+.form__name-section {
+}
+.name-title-container {
+}
+.name-title-container__title {
+}
+.name-input-container {
+}
+.form__tuesday-section {
+}
+.tuesday-date-container {
+}
+.date {
+}
+.date__num {
+}
+.meal-times-container {
+}
+.breakfast {
+}
+.lunch {
+}
+.dinner {
+}
+.form__wednesday-section {
+}
+.wednesday-date-container {
+}
+.date-container {
+}
+.form__thursday-section {
+}
+.form__friday-section {
+}
+.form__saturday-section {
+}
+.form__sunday-section {
+}
+.form__monday-section {
+}
+.button-container {
 }
