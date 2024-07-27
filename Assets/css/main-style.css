@@ -50,16 +50,40 @@ header {
 
 /* MAIN */
 
+main {
+    padding: 0px 10px;
+}
+
 .form {
 }
+
 .form__section {
+    padding: 15px 0px 15px 15px;
+    border-radius: 5px;
+    background-color: white;
+
+    margin-bottom: 10px;
+    
 }
+
+.form-title-container {
+    margin-bottom: 15px;
+}
+
 .form__graduation-section {
 }
 .graduation-title-container {
 }
 .graduation-title-container__title {
+    
 }
+
+.form__title {
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: var(--title-font-family);
+}
+
 .graduation-radio-container {
 }
 .graduation-container__graduation-item {
