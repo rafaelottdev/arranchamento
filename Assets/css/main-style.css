@@ -193,8 +193,8 @@ main {
 }
 
 .button-container > button {
-    width: 180px;
-    height: 30px;
+    width: 200px;
+    height: 35px;
 
     border-radius: 5px;
     font-size: .9em;
