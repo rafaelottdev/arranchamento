@@ -63,50 +63,45 @@ main {
     background-color: white;
 
     margin-bottom: 10px;
-    
+}
+
+.form__graduation-section {
 }
 
 .form-title-container {
     margin-bottom: 15px;
 }
 
-.form__graduation-section {
-}
 .graduation-title-container {
-}
-.graduation-title-container__title {
-    
 }
 
 .form__title {
-    font-size: 1.3em;
-    font-weight: lighter;
+    font-size: 1.2em;
+    font-weight: 500;
     font-family: var(--title-font-family);
 }
 
 .graduation-radio-container {
 }
-.graduation-container__graduation-item {
+.graduation-radio-container__graduation-item {
 }
-.graduation-container__ten {
+.graduation-radio-container__ten {
 }
-.graduation-container__s-ten {
+.graduation-radio-container__s-ten {
 }
-.graduation-container__sgt {
+.graduation-radio-container__sgt {
 }
-.graduation-container__al {
+.graduation-radio-container__al {
 }
-.graduation-container__cb {
+.graduation-radio-container__cb {
 }
-.graduation-container__ep {
+.graduation-radio-container__ep {
 }
-.graduation-container__ev {
+.graduation-radio-container__ev {
 }
 .form__name-section {
 }
 .name-title-container {
-}
-.name-title-container__title {
 }
 .name-input-container {
 }
