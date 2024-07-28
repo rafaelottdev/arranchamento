@@ -183,5 +183,25 @@ main {
 }
 .form__monday-section {
 }
+
 .button-container {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container > button {
+    width: 180px;
+    height: 30px;
+
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: bold;
+    letter-spacing: .5px;
+
+    text-transform: uppercase;
+
+    background-color: white;
 }
