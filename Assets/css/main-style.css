@@ -109,9 +109,11 @@ main {
 
 .text-option {
     margin-left: 7px;
-    font-size: 1.05em;
+    font-size: 1.08em;
     letter-spacing: .5px;
 }
+
+/* alterando o tamanho doss checks e o font size dos labels, primeiro só os checks dps só os labels */
 
 .graduation-radio-container__ten {
 }
