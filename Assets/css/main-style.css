@@ -82,9 +82,26 @@ main {
 }
 
 .graduation-radio-container {
+
 }
+
+.input-list-container {
+    padding-left: 10px;
+}
+
 .graduation-radio-container__graduation-item {
+    
 }
+
+.check-container + .check-container {
+    margin-top: 15px;
+}
+
+.text-option {
+    font-size: 1.1em;
+    letter-spacing: .5px;
+}
+
 .graduation-radio-container__ten {
 }
 .graduation-radio-container__s-ten {
