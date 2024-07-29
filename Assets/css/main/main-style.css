@@ -234,6 +234,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    position: relative;
 }
 
 .footer-text {
@@ -245,6 +247,25 @@ footer {
 .footer-btn {
     padding: 10px;
     background-color: transparent;
+}
+
+.adm-password-container {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+
+    display: flex;
+}
+
+.adm-password-container > input {
+    width: 200px;
+    height: 30px;
+}
+
+.adm-password-container > div {
+    background-color: red;
+    display: flex;
+    align-items: center;
 }
 
 /* fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc -> fazer programação do adm */
