@@ -260,12 +260,22 @@ footer {
 .adm-password-container > input {
     width: 200px;
     height: 30px;
+
+    border-radius: 5px 0px 0px 5px;
 }
 
-.adm-password-container > div {
-    background-color: red;
+.adm-password-container > button {
+    width: 40px;
+
+    font-size: 1.2em;
+    border-radius: 0px 5px 5px 0px;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    background-color: red;
 }
+
 
 /* fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc -> fazer programação do adm */
