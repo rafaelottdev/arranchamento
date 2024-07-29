@@ -135,8 +135,6 @@ main {
     letter-spacing: .5px;
 }
 
-/* alterando o tamanho doss checks e o font size dos labels, primeiro só os checks dps só os labels */
-
 .graduation-radio-container__ten {
 }
 .graduation-radio-container__s-ten {
@@ -249,4 +247,4 @@ footer {
     background-color: transparent;
 }
 
-/* fazer pra pc -> fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc */
+/* fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc -> fazer programação do adm */
