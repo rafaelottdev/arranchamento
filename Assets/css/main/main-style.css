@@ -227,7 +227,7 @@ main {
 }
 
 footer {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .info-footer-container {
@@ -251,7 +251,7 @@ footer {
 
 .adm-password-container {
     position: absolute;
-    top: 0px;
+    top: 2px;
     left: 30px;
 
     display: flex;
@@ -259,7 +259,7 @@ footer {
 
 .adm-password-container > input {
     width: 200px;
-    height: 30px;
+    height: 35px;
 
     border-radius: 5px 0px 0px 5px;
 }
