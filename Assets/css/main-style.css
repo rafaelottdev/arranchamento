@@ -23,7 +23,7 @@ header {
 }
 
 .header-container__header-text-container {
-    padding: 10px 0px;
+    padding: 10px 0px 30px 0px;
 
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@ footer {
 }
 
 .footer-text {
-    font-size: 1.1em;
+    font-size: 1em;
     color: white;
     letter-spacing: 1px;
 }
