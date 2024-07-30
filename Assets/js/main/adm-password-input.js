@@ -5,7 +5,7 @@ function passwordValidation() {
     const inputValue = document.querySelector('.inputPass').value
     
     if(inputValue === password) {
-        window.location.href = '../adm.html'
+        window.location.href = 'https://rafaelottdev.github.io/arranchamento/adm.html'
     }
 }
 
