@@ -247,46 +247,7 @@ footer {
 }
 
 .footer-btn {
-    padding: 10px;
-    background-color: transparent;
-
     cursor: pointer;
 }
-
-.adm-password-container {
-    position: absolute;
-    top: 2px;
-    left: -240px;
-
-    display: flex;
-
-    transition: .1s;
-}
-
-.adm-password-container > input {
-    width: 200px;
-    height: 35px;
-
-    padding-left: 10px;
-    font-size: 1em;
-
-    border-radius: 5px 0px 0px 5px;
-}
-
-.adm-password-container > button {
-    width: 40px;
-
-    font-size: 1.2em;
-    border-radius: 0px 5px 5px 0px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    cursor: pointer;
-
-    background-color: rgb(215, 215, 220);
-}
-
 
 /* fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc -> fazer programação do adm */

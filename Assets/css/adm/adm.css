@@ -1,10 +1,16 @@
 @charset "UTF-8";
 
-/* MESMO */
-
 body {
     background-color: var(--main-background-color);
 }
+
+/* LOCK */
+
+.lock-cover {
+
+}
+
+/* MESMO - HEADER */
 
 .header-container__wrapper {
     margin-top: -100px;
@@ -60,4 +66,30 @@ body {
         border-radius: 5px;
     }
 
+}
+
+/* MAIN */
+
+.meal-data-container {
+}
+.name {
+}
+.day-list {
+}
+.container-daily-meals {
+
+}
+.day-container {
+}
+.day {
+}
+.meal-list {
+}
+.item {
+}
+.item-1 {
+}
+.item-2 {
+}
+.item-3 {
 }
