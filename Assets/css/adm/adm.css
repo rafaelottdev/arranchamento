@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: var(--main-background-color);
 }
 
@@ -140,26 +140,68 @@ body {
 
 /* MAIN */
 
-.meal-data-container {
+main {
+    padding: 0px 10px;
 }
-.name {
+
+.meal-data-container {
+    margin-bottom: 20px;
+    padding: 15px;
+
+    border-radius: 5px;
+
+    background-color: white;
+}
+.name > h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.3em;
 }
 .day-list {
+    
 }
 .container-daily-meals {
-
+    display: flex;
+    align-items: center;
 }
+
+.container-daily-meals + .container-daily-meals {
+    margin-top: 15px;
+}
+
 .day-container {
 }
 .day {
+    margin-right: 20px;
+    font-size: 1.3em;
 }
 .meal-list {
+    width: 100%;
+
+    position: relative;
+
+    font-size: 1.3em;
+
+    background-color: red;
 }
+
+.meal-list + .meal-list {
+    
+}
+
 .item {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
 }
+
 .item-1 {
+    right: 170px;
 }
 .item-2 {
+    right: 80px;
 }
 .item-3 {
+    right: 0px;
 }

@@ -1,3 +1,4 @@
+const body = document.querySelector('body')
 const admBtn = document.querySelector('.adm-password-container > button')
 
 function validation() {
@@ -6,8 +7,8 @@ function validation() {
     const lockCover = document.querySelector('.lock-cover')
 
     if(passwordValue == password) {
+        body.style.cssText = 'overflow: visible;'
         lockCover.style.cssText = `top: -1080px;`
-        console.log('ta certo')
     }
 }
 
