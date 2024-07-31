@@ -32,7 +32,7 @@ body {
 
     text-align: center;
     font-size: 2.3;
-    font-family: 'Noto Serif JP';
+    font-family: 'Noto Serif JP', serif;
 }
 
 .adm-password-container {
@@ -149,6 +149,7 @@ main {
     padding: 15px;
 
     border-radius: 5px;
+    font-family: 'Jomolhari', serif;
 
     background-color: white;
 }
@@ -174,14 +175,14 @@ main {
 }
 .day {
     margin-right: 20px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .meal-list {
     width: 100%;
 
     position: relative;
 
-    font-size: 1.3em;
+    font-size: 1.2em;
 
     background-color: red;
 }
@@ -197,10 +198,10 @@ main {
 }
 
 .item-1 {
-    right: 170px;
+    right: 165px;
 }
 .item-2 {
-    right: 80px;
+    right: 73px;
 }
 .item-3 {
     right: 0px;
