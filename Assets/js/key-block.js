@@ -4,6 +4,7 @@ function blockEnter(event) {
         console.log('Deu enter')
         event.preventDefault()
     }
+    alert(event.code)
 }
 
 window.addEventListener('keyup', blockEnter)
