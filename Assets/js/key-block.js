@@ -1,5 +1,9 @@
 function blockEnter(event) {
-    alert(event)
+    if(event.code === 'NumpadEnter' || event.code === 'Enter') {
+        alert('deu enter')
+        console.log('Deu enter')
+        event.preventDefault()
+    }
 }
 
 window.addEventListener('keyup', blockEnter)
