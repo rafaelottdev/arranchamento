@@ -5,6 +5,10 @@ function blockEnter(event) {
     //     event.preventDefault()
     // }
 
+    if(event.code == '') {
+        alert('apertou o enter o celular')
+    }
+
     alert(event.code)
 }
 
