@@ -1,15 +1,6 @@
 function blockEnter(event) {
-    // if(event.code == 'NumpadEnter' || event.code == 'Enter') {
-    //     alert('deu enter')
-        
-    //     event.preventDefault()
-    // }
-
-    if(event.code == '') {
-        alert('apertou o enter o celular')
+    if(event.key == 'Enter' || event.key == '') {
+        event.preventDefault()
     }
-
-    alert(event.code)
 }
-
-window.addEventListener('keyup', blockEnter)
+window.addEventListener('keydown', blockEnter)
