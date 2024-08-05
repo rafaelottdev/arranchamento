@@ -1,56 +1,65 @@
+let graduation = ''
+
 function graduationList() {
     const inputGraduationList = [... document.querySelectorAll('.graduation-radio-container__graduation-item > input')]
 
     return inputGraduationList
 }
 
+function getGraduation() {
+    return graduation
+}
+
 function getGraduationText(input) {
     switch (input.id) {
         case 'ten-input':
-            return 'TEN'
+            graduation = '1° TEN'
             break;
 
         case 's-ten-input':
-            return 's-ten-input'
+            graduation = 's-ten-input'
             break
 
         case 'sgt-input':
-            return '3° SGT'
+            graduation = '3° SGT'
             break
 
         case 'al-input':
-            return 'AL CFST'
+            graduation = 'AL CFST'
             break
 
         case 'cb-input':
-            return 'CB'
+            graduation = 'CB'
             break
 
         case 'ep-input':
-            return 'SD EP'
+            graduation = 'SD EP'
             break
 
         case 'ev-input':
-            return 'SD EV'
+            graduation = 'SD EV'
             break
     
         default:
             break;
     }
+
+    getGraduation()
 }
 
 function isChecked(input) {
     if(input.checked) {
-        console.log(getGraduationText(input))
+        getGraduationText(input)
     }
 }
 
-function getGraduation() {
+function scrollGraduationList() {
     graduationList().forEach((input) => {
         isChecked(input)
     })
 }
 
 export {
-    getGraduation
+    scrollGraduationList,
+    getGraduation,
 }
