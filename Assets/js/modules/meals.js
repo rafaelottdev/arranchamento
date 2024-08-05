@@ -28,7 +28,7 @@ function textConvert(dayList) {
         })
     })
     
-    console.log(dayList)
+    console.log(dayList) // agora tentar fazer um obj pra cada dia ( ex: dayObj = {tuesday: [café, almoço], wednesday: [janta]} ) isso vai deixar mais facil de acessar quando for pra mostrar na pagina
 }
 
 function addList(input) {
