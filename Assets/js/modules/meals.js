@@ -1,59 +1,85 @@
+let dayList = [[], [], [], [], [], [], []] // tentar fazer com OBJ (mais facil?)
+
 function mealList() {
     let inputList = document.querySelectorAll('.inputMeal')
 
     return inputList
 }
 
-function ToList(input) {
-    let tuesday, windsday, quinta, sexta, sabado, domingo, segunda = [] //arrumar isso, colocar esses array dentro de outro
- 
+function textConvert(dayList) {
+    dayList.forEach((list) => {
+        list.forEach((item, i) => {
+            switch (item.slice(0, -2)) {
+                case 'breakfast':
+                    list[i] = 'Café'
+                    break;
+
+                case 'lunch':
+                    list[i] = 'Almoço'
+                    break;
+
+                case 'dinner':
+                    list[i] = 'Janta'
+                    break;
+            
+                default:
+                    break;
+            }
+        })
+    })
+    
+    console.log(dayList)
+}
+
+function addList(input) {
     switch (input.id.slice(-1)) {
         case '1':
-            tuesday.push(input.id)
+            dayList[0].push(input.id)
             break
 
         case '2':
-            tuesday.push(input.id)
+            dayList[1].push(input.id)
             break;
 
         case '3':
-            tuesday.push(input.id)
+            dayList[2].push(input.id)
             break
 
         case '4':
-            tuesday.push(input.id)
+            dayList[3].push(input.id)
             break;
 
         case '5':
-            tuesday.push(input.id)
+            dayList[4].push(input.id)
             break
 
         case '6':
-            tuesday.push(input.id)
+            dayList[5].push(input.id)
             break;
 
         case '7':
-            tuesday.push(input.id)
+            dayList[6].push(input.id)
             break
     
         default:
             break;
     }
-
-    console.log(tuesday)
-
 }
 
 function isChecked(input) {
     if(input.checked) {
-        ToList(input)
+        addList(input)
     }
 }
 
 function scrollMeaList() {
+    dayList = [[], [], [], [], [], [], []]
+
     mealList().forEach((input) => {
         isChecked(input)
     })
+
+    textConvert(dayList)
 }
 
 export {
