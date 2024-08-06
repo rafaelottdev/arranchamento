@@ -27,8 +27,10 @@ function textConvert(dayList) {
             }
         })
     })
-    
-    console.log(dayList) // agora tentar fazer um obj pra cada dia ( ex: dayObj = {tuesday: [café, almoço], wednesday: [janta]} ) isso vai deixar mais facil de acessar quando for pra mostrar na pagina
+}
+
+function getMeal() {
+    return dayList
 }
 
 function addList(input) {
@@ -83,5 +85,6 @@ function scrollMeaList() {
 }
 
 export {
-    scrollMeaList
+    scrollMeaList,
+    getMeal
 }
