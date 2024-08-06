@@ -29,7 +29,7 @@ function textConvert(dayList) {
     })
 }
 
-function getMeal() {
+function getMealList() {
     return dayList
 }
 
@@ -86,5 +86,5 @@ function scrollMeaList() {
 
 export {
     scrollMeaList,
-    getMeal
+    getMealList
 }
