@@ -66,45 +66,14 @@ main {
     margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-    .form__section {
-        min-width: 600px;
-    }
-    main {
-        display: flex;
-        justify-content: center;
-    }
-    .header-container__wrapper {
-        margin-top: -60px;
-        display: flex;
-        justify-content: center;
-    }
-    .header-container__wrapper img {
-        width: 600px;
-        height: 400px;
-        border-radius: 5px;
-    }
-
-}
-
-.form__graduation-section {
-}
-
 .form-title-container {
     margin-bottom: 15px;
-}
-
-.graduation-title-container {
 }
 
 .form__title {
     font-size: 1.2em;
     font-weight: 500;
     font-family: var(--title-font-family);
-}
-
-.graduation-radio-container {
-
 }
 
 .input-list-container {
@@ -114,10 +83,6 @@ main {
 .input-list-container > div > input {
     width: 16px;
     height: 16px;
-}
-
-.graduation-radio-container__graduation-item {
-    
 }
 
 .check-container {
@@ -135,25 +100,6 @@ main {
     letter-spacing: .5px;
 }
 
-.graduation-radio-container__ten {
-}
-.graduation-radio-container__s-ten {
-}
-.graduation-radio-container__sgt {
-}
-.graduation-radio-container__al {
-}
-.graduation-radio-container__cb {
-}
-.graduation-radio-container__ep {
-}
-.graduation-radio-container__ev {
-}
-.form__name-section {
-}
-.name-title-container {
-}
-
 .name-input-container {
     padding-right: 15px;
 }
@@ -169,39 +115,6 @@ main {
     border-radius: 5px;
 
     background-color: rgb(215, 215, 220);
-}
-
-.form__tuesday-section {
-}
-.tuesday-date-container {
-}
-.date {
-}
-.date__num {
-}
-.meal-times-container {
-}
-.breakfast {
-}
-.lunch {
-}
-.dinner {
-}
-.form__wednesday-section {
-}
-.wednesday-date-container {
-}
-.date-container {
-}
-.form__thursday-section {
-}
-.form__friday-section {
-}
-.form__saturday-section {
-}
-.form__sunday-section {
-}
-.form__monday-section {
 }
 
 .button-container {
@@ -229,7 +142,7 @@ main {
 }
 
 footer {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .info-footer-container {
@@ -250,4 +163,136 @@ footer {
     cursor: pointer;
 }
 
-/* fazer a programação -> fazer a pagina do adm -> fazer pagina do adm pra pc -> fazer programação do adm */
+/* ARRANCHADOS */
+
+.meal-data-container {
+    margin-bottom: 20px;
+    padding: 15px;
+
+    border-radius: 5px;
+
+    background-color: white;
+}
+.name > h3 {
+    margin-bottom: 15px;
+
+    letter-spacing: .5px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Jomolhari', serif;
+}
+
+.container-daily-meals {
+    display: flex;
+    align-items: center;
+
+    padding: 3px;
+    border-radius: 5px;
+
+    background-color: rgb(225, 225, 225);
+
+    font-family: 'inter';
+}
+
+.container-daily-meals + .container-daily-meals {
+    margin-top: 15px;
+}
+
+.day-container {
+}
+.day {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+.meal-list {
+    width: 100%;
+
+    position: relative;
+
+    font-size: 1.2em;
+
+    background-color: red;
+}
+
+.item {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+.item-1 {
+    right: 160px;
+}
+.item-2 {
+    right: 80px;
+}
+.item-3 {
+    right: 13px;
+}
+
+@media (max-width: 320px) {
+    .item-1 {
+        right: 143px;
+    }
+    .item-2 {
+        right: 65px;
+    }
+    .item-3 {
+        right: 5px;
+    }
+}
+
+@media (min-width: 414px) {
+    .item-1 {
+        right: 210px;
+    }
+    .item-2 {
+        right: 123px;
+    }
+    .item-3 {
+        right: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .form__section {
+        min-width: 600px;
+    }
+    
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container__wrapper {
+        margin-top: -60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container__wrapper img {
+        width: 600px;
+        height: 400px;
+        border-radius: 5px;
+    }
+
+    .meal-data-container {
+        width: 55vw;
+    }
+
+}
+
+@media (min-width: 924px)  {
+    .adm-password-container > input {
+        width: 25vw;
+    }
+}
+
+@media (min-width: 1080px) {
+    .meal-data-container {
+        width: 35vw;
+    }
+}

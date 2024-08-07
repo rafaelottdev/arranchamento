@@ -1,6 +1,12 @@
 // PUXAR O LOCALSTORAGE PRA CA
 function getLocalStorageData(keys) {
-    console.log(keys)
+    let kl = []
+
+    keys.forEach((key) => {
+        kl = [... localStorage.getItem(key)]
+    })
+
+    console.log(kl)
 }
 
 function getKeys() {
@@ -10,7 +16,7 @@ function getKeys() {
         storageKeysList = Object.keys(localStorage)
 
         getLocalStorageData(storageKeysList)
-    }, 8000)
+    }, 29000)
 }
 
 getKeys()

@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Jomolhari&family=Noto+Serif+JP:wght@200..900&display=swap');
-
-@import url('../reset.css');
-@import url('./adm.css');
-@import url('../variables.css');
