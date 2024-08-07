@@ -1,32 +1,57 @@
-let localStorageData = false
-
-function localStorageVerify() {
-    if(localStorage.length > 0) {
-        localStorageData = true
-    }
+// PUXAR O LOCALSTORAGE PRA CA
+function getLocalStorageData(keys) {
+    console.log(keys)
 }
 
-function sectionCreate() {
-    const section = document.createElement('section')
-    section.classList.add('meal-data-container')    
+function getKeys() {
+    let storageKeysList = []
+    
+    setInterval(() => {
+        storageKeysList = Object.keys(localStorage)
+
+        getLocalStorageData(storageKeysList)
+    }, 8000)
 }
 
-function containerDivNameCreate() {
-    const div = document.createElement('div')
-    div.classList.add('name')
-}
+getKeys()
 
-function htmlCreator() {
-    sectionCreate()
 
-    containerDivNameCreate()
-}
 
-if(localStorageData) {
-    htmlCreator()
-}
+// let localStorageData = false
 
-localStorageVerify()
+// function localStorageVerify() {
+//     if(localStorage.length > 0) {
+//         localStorageData = true
+//     }
+// }
+
+// function htmlCreator() {
+//     const main = document.querySelector('main')
+
+//     // criação de elemento e add as classes
+//     const section = document.createElement('section')
+//     section.classList.add('meal-data-container')
+
+//     const div = document.createElement('div')
+//     div.classList.add('name')
+
+//     const h3 = document.createElement('h3')
+//     h3.innerHTML = localStorage.
+//     const span = document.createElement('span')
+
+//     // inserindo os elementos dentro de outros
+//     section.appendChild(div)
+//     main.appendChild(section)
+    
+// }
+
+// localStorageVerify()
+
+// if(localStorageData) {
+//     htmlCreator()
+// }
+
+
 
 /* 
 <h3>
