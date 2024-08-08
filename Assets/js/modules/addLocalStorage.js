@@ -5,15 +5,12 @@ import { getMealList } from "./meals.js"
 let nObj = 1
 
 function addLocalStorage(obj) {
-    
     localStorage.setItem(nObj, JSON.stringify(obj))
     nObj++
-
-    console.log(nObj)
 }
 
 function toObj() {
-    const userDataObj = {
+    let userDataObj = {
         graduation: getGraduation(),
         name: getName(),
         mealList: getMealList()
