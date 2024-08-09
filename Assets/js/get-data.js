@@ -4,15 +4,13 @@ import { getName } from "./modules/war-name.js"
 import { scrollMeaList, getMealList } from "./modules/meals.js"
 import { toObj } from "./modules/addLocalStorage.js"
 
-function apagaFilho() {
-    console.log('apagando filho')
+const main2 = document.querySelector('.arranchados')
+
+function apagaFilho(main2) {
+    main2.innerHTML = ''
 }
 
 function addElement(obj) {
-
-    const main2 = document.querySelector('.arranchados')
-    apagaFilho()
-
     const section = document.createElement('section')
     section.classList.add('meal-data-container')
 
@@ -23,8 +21,7 @@ function addElement(obj) {
     const span = document.createElement('span')
 
     section.appendChild(div)
-    main2.appendChild(section)
-    console.log('x')
+    main2.appendChild(section) // verificar se os numeros que estão na pagina são os mesmo que estão nas keys, se for os mesmos, não adicionar mas se não for igual adiciona - dar um jeito de inserir os numeros da key na pagina tbm, pra fazer a verificação (ex: user a com a key 2 foi adicionado na pagina, adicionar a key 2 na pagina tbm)
 }
 
 function getFromLs() {
@@ -44,6 +41,7 @@ function functionExecution() { // guardar no localstorage
 
     toObj()
     getFromLs()
+    apagaFilho(main2)
 }
 
 sendBtn.addEventListener('click', functionExecution)
